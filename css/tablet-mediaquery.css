@@ -45,6 +45,10 @@
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column;이 적용된 상태에선 flex-wrap: wrap;이 적용되지 않음 */
+    /* => flex-wrap: nowrap;
+      기본 설정값(default)
+      flex-container 부모요소 영역을 벗어나더라도 flex-item 요소들을 한 줄에 배치
+      시작점은 flex-direction 에 의해 결정된 방향으로 적용 */
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--color-c4);
